@@ -9,6 +9,7 @@ public class BrokenImagesPage {
 
     private WebDriver driver;
     private By firstImage = By.xpath("//img[contains(@src, 'asdf.jpg')]");
+    private By secondImage = By.xpath("");
     private By thirdImage = By.xpath("//img[contains(@src, 'img/avatar-blank.jpg')]");
 
     public BrokenImagesPage(WebDriver driver){

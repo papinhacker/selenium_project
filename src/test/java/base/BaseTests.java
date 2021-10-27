@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.HomePage;
+import utils.CookieManager;
 import utils.WindowManager;
 
 import java.util.List;
@@ -41,6 +42,10 @@ public class BaseTests {
 
     public WindowManager getWindowManager(){
         return new WindowManager(driver);
+    }
+
+    public CookieManager getCookieManager(){
+        return new CookieManager(driver);
     }
 
 }

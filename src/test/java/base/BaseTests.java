@@ -4,15 +4,11 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.TestInstance;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.HomePage;
 import utils.CookieManager;
 import utils.WindowManager;
-
-import java.util.List;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class BaseTests {
